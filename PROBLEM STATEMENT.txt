@@ -1,0 +1,30 @@
+With the ever increasing population and the not so fast growing infrastructure, the railway reservation system needs a supporting portal to manage the physical rush.
+This calls for a railway reservation system for manipulation of data keeping in mind the following major points: 
+
+• A 2 level system i.e. Administrator & User
+
+1.Administrator Rights 
+• Add trains into the database as per the running schedule.
+• Add the information about the train, route, number of classes and respective fair, and availability of tickets, departure date and other such information.
+• Store and retrieve information about the various bookings done till date.
+• Keep track of all passengers and thus schedule their journey accordingly.
+• Maintain records of passengers travelling in the different trains on different dates reaching different destinations in the system.
+• However Admin doesn’t have power to DELETE or MODIFY.
+
+2.User Rights 
+• Have a look on all trains in the database.
+• Book a ticket according to Boarding Point & Destination Point.
+• Gets a confirmed ticket with important details mentioned such as PNR, Name of Passengers, Age of passengers, Travel date and so on.
+• Gets options to get Concession based on AGE criteria.
+• Can Cancel a ticket and claim the Refund amount.
+• However Admin doesn’t have power to DELETE or MODIFY.
+
+3.Constraints & Limitations Administrator Level
+• Only adding a Train is allowed. No deletion/Modification is possible.
+• A train has 2 stations only Boarding point & Destination point.
+
+4.User Level
+• Cancellation means cancellation of whole PNR.
+• Everyone on a PNR has to travel on same class.
+• No reservation for any category.
+• Only 1 booking on a particular journey allowed per User
